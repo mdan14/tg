@@ -1,0 +1,25 @@
+.telegram32{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #333;
+    z-index: 9999;
+}
+.telegram32 i{
+    border-radius: 50%;
+    line-height: 99%;
+    background: #fe981a;
+    border: 2px solid #fe981a;
+    animation: radial-pulse 1s infinite;
+}
+.telegram32 i:hover{
+    background: #fff;
+    border: 2px solid #FFf;
+}
+@keyframes radial-pulse {
+0% { box-shadow: 0 0 0 0px rgb(254 152 26 / 50%); }  
+   
+  100% { box-shadow: 0 0 0 40px rgb(198 245 198 / 0%); }
+  }
